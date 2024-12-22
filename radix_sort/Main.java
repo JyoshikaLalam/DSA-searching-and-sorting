@@ -1,4 +1,4 @@
-public class radix {
+public class Main {
 
     public static void bubbleSort(int[] arr) {
         int n = arr.length;
@@ -47,7 +47,7 @@ public class radix {
         }
     }
 
-    public static void main(String[] args) {
+    public static void radix(String[] args) {
         int[] myArray = {170, 45, 75, 90, 802, 24, 2, 66};
         System.out.print("Original array: ");
         for (int num : myArray) System.out.print(num + " ");
