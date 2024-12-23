@@ -4,6 +4,7 @@ void mergeSort(double arr[], int start, int end);
 void merge(double arr[], int start, int mid, int end);
 
 int main() {
+    printf("Ths is mge sort");
     double unsortedArr[] = {3, 7, 6, -10, 15, 23.5, 55, -13};
     int size = sizeof(unsortedArr) / sizeof(unsortedArr[0]);
 
