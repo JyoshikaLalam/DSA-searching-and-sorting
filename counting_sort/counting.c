@@ -27,7 +27,7 @@ void countingSort(int arr[], int n) {
 }
 
 int main() {
-    int arr[] = {4, 2, 2, 6, 3, 3, 1, 6, 5, 2, 3};
+    int arr[] = {4, 2, 2, 6, 3, 6, 1, 6, 5, 2, 3};
     int n = sizeof(arr)/sizeof(arr[0]);
     countingSort(arr, n);
     
