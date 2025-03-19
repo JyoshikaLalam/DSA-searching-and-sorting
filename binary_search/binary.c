@@ -3,7 +3,7 @@
 int binarySearch(int arr[], int size, int targetVal);
 
 int main() {
-    int myArray[] = {1, 3, 5, 7, 9, 11, 13, 15, 17, 19};
+    int myArray[] = {1, 3, 5, 17, 9, 11, 13, 15, 17, 19};
     int myTarget = 15;
     int size = sizeof(myArray) / sizeof(myArray[0]);
 
